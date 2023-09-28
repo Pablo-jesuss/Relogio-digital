@@ -13,3 +13,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+}
