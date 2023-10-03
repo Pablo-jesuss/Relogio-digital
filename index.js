@@ -7,4 +7,8 @@ const relogio = setInterval(function time() {
   let hr = dateToday.getHours();
   let min = dateToday.getMinutes();
   let seg = dateToday.getSeconds();
+
+  horas.textContent = hr;
+  minutos.textContent = min;
+  segundos.textContent = seg;
 })
